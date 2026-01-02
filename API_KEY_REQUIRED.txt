@@ -1,0 +1,31 @@
+⚠️ IMPORTANT: ADD YOUR API KEY BEFORE RUNNING ⚠️
+
+This app requires a GNews API key to function.
+
+STEP 1: Get Your Free API Key
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Visit: https://gnews.io
+2. Click "Get API Key" or "Sign Up"
+3. Create a free account (takes 1 minute)
+4. Copy your API key from the dashboard
+
+STEP 2: Add API Key to the App
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. Open file: lib/core/constants/api_constants.dart
+2. Find line 7 that says:
+   static const String apiKey = 'YOUR_API_KEY_HERE';
+   
+3. Replace YOUR_API_KEY_HERE with your actual key:
+   static const String apiKey = 'your_actual_key_from_gnews';
+   
+4. Save the file
+
+STEP 3: Run the App
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+flutter run
+
+That's it! The app will now work perfectly.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Need help? Check SETUP_GUIDE.md for detailed instructions.
